@@ -9,7 +9,7 @@ import (
 
 	// this import path denotes the directory containing Go source files for the package cs4513_go_impl
 	// further, the import declaration binds a short name (by default package name cs4513_go_impl) to the imported package; the short name will be used to refer to package content
-	"github.com/pntran8/starter-project-go-warmup/cs4513_go_impl"
+	"project-go-warmup/cs4513_go_impl"
 )
 
 func equal(counts1, counts2 []cs4513_go_impl.WordCount) bool {

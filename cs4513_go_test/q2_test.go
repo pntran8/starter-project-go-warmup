@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/pntran8/starter-project-go-warmup/cs4513_go_impl"
+	"project-go-warmup/cs4513_go_impl"
 )
 
 func runSumTest(t *testing.T, fileName string, num int, expectedSum int) {

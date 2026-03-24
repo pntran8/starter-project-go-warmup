@@ -69,6 +69,4 @@ For additional measurement scenarios, measuring really really large files might 
 
 ## Errata
 
-In multiple spots I had to change it from `project-go-warmup` to `starter-project-go-warmup`, like in `q1_test.go` line 12 & `q2_test.go` line 9 & also redo the `go.mod` file to `starter-project-go-warmup`.
-
-Also, I was able to run `go run .` on my local just fine, but the autograder fails to do so.
+I had an issue where in multiple spots I had to change it from `project-go-warmup` to `starter-project-go-warmup`, like in `q1_test.go` line 12 & `q2_test.go` line 9 & also redo the `go.mod` file to `starter-project-go-warmup`. But then the autograder failed to run main.go. So I changed it back.
